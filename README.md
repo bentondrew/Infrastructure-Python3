@@ -1,5 +1,8 @@
 # Infrastructure-Python3
-To build image for drewantech/python3:1.0.0 run the
-following command from this directory:
+To build drewantech/python3:1.0.0 via ssh:
 
-docker build -t drewantech/python3:1.0.0 .
+docker build -t drewantech/python3:1.0.0 git@github.com:Drewan-Tech/Infrastructure-Python3.git
+
+To build drewantech/python3:1.0.0 via https:
+
+docker build -t drewantech/python3:1.0.0 https://github.com/Drewan-Tech/Infrastructure-Python3.git
