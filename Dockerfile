@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:3.6
 MAINTAINER Benton Drew <benton.s.drew@drewantech.com>
 RUN apk add --no-cache python3 && \
   addgroup -S -g 224 python_user && \
